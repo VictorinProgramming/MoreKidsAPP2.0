@@ -102,4 +102,8 @@ public class Usuario {
     public int hashCode() {
         return Objects.hash(getId());
     }
+
+    public boolean isEmpty() {
+        return false;
+    }
 }

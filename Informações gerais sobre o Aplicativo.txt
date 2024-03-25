@@ -1,0 +1,137 @@
+---- MORE KIDS ANOTAÇÕES ----
+
+\\ Aplicativos e libraries necessários //
+
+- Visual C++
+- Java JDK
+- Java SE -- Geralmente baixado direto pelo JDK
+- NetBeans
+- MySQL Workbench
+- Git
+
+\\ Informações //
+
+- Informações sobre o banco de dados:
+	- Connection Name: MoreKidsAPP
+	- Server Host: localhost | (futuramente será alterado o nome para serverhostmorekids)
+	- Port: 3306
+	- Nome Usuário: morekids
+	- Senha: @novaSenha3306
+	- Server Time Zone: Brazil/East
+
+- Ao fazer a conexao da Aplicação com o Banco de Dados:
+	- private final String USUARIO = "morekids";
+	- private final String SENHA = "@novaSenha3306";
+	- private final String URL = "jdbc:mysql://localhost:3306/db_morekids";
+	- Chama o método Conexao;
+
+- Informações sobre o aplicativo: 
+	- Gestão de Vendas
+	- Gestão de Estoque
+	- Gestão de Clientes
+	- Gestão de Usuários
+
+- Informações sobre o Repositório:
+	--> Quando Criado um novo Repositório <--
+
+		git init
+		git commit -m "first commit"
+		git branch -M main
+		git remote add origin https://github.com/VictorinProgramming/MoreKidsAPP2.0.git
+		git push -u origin main
+
+	--> Quando temos um Repositório Existente <--
+
+		git remote add origin https://github.com/VictorinProgramming/MoreKidsAPP2.0.git
+		git branch -M dev
+		git push -u origin dev
+
+	--> Criando novas Branchs <--
+
+		git branch dev
+
+	--> Usando a Branch <--
+		git checkout dev
+
+\\ Instruções //
+
+- Criação do Aplicativo:
+	- Aba de Criação
+		- Tela Cadastro Usuários
+		- Tela Cadastro Clientes
+		- Tela Cadastro de Produtos
+
+	- Aba de Gestão de Estoque
+		- Saída de Produto
+		- Entrada Produto
+		- Pesquisa de Produto
+		
+	- Aba de Gestão de Venda
+		- Venda
+		- Pesquisa de Vendas
+
+	- Aba Sobre o Aplicativo
+		- Informações sobre Aplicativo
+		- Informações de Como usar o Aplicativo
+
+\\ Tarefas Concluídas juntamente com as Datas //
+
+-- Data 19/03/2024 hrs 15:30
+	- Instalação dos aplicativos
+	- Inicio com a criação do Banco de Dados
+	- Criação do Banco de Dados Completo
+-- Data 19/03/2024 hrs 19:05
+	- Finalização do Banco de Dados
+	- Inicio da instalação do NetBeans
+	-  Erro ao iniciar um novo projeto 
+	- Preso na tela finding feature
+	- Buscando Solução
+	- Solução feita
+	- Criando os Pacotes da aplicação
+	- Criação das Entities
+-- Data 19/03/2024 hrs 20:30
+	- Conclusão das Entities
+	- Estabelecendo a conexão com DBA
+	- Erro de Conexão
+	- Download do JDBC
+	- Exportando na pasta Java
+	- Aplicando o uso do JDBC dentro da Engine
+-- Data 19/03/2024 hrs 21:15
+	- Criando as classes no DAO
+	- Criando o Modulo de adicionar e editar usuário
+-- Data 19/03/2024 hrs 23:26
+	- Criando o Modulo para adicionar UsuarioDao
+	- Tarefa incompleta
+	- Finalizar no Próximo dia
+-- Data 20/03/2024 hrs 8:32
+	- Voltando ao Módulo UsuarioDao
+	- Correção no código
+	- Havia um erro "d != java.lang"
+	- Correção no código
+	- Usuário sendo adicionado com Sucesso!
+	- Usando Spring Security
+-- Data 20/03/2024 hrs 10:06
+	- Finalizando o dia
+-- Data 21/03/2024 hrs 17:19
+	- Instalação dos aplicativos no novo servidor
+	- Finalizando o dia
+-- Data 22/03/2024 hrs 10:00
+	- Iniciando o modo de segurança da senha
+	- Erro ao cadastrar Usuario
+	- Verificação do erro
+	- O erro estava na Senha
+	- Atualizei o Banco de Dados
+	- senha varchar(60) not null
+	- Erro corrigido
+	- Voltando a criação do Back-End
+	- Modo de segurança funcionando perfeitamente na senha
+-- Data 22/03/2024 hrs 10:26
+	- Editando usuario ADMIN
+	- Fazendo com que a senha seja Crypt
+	- Alteração feita
+	- Baixando o Git 
+	- Configurado o novo Repositório
+	- Adicionado as Configurações do Repositório		
+-- Data 22/03/2024 hrs 11:35
+	- Atualização do material de Apoio
+	
