@@ -74,6 +74,14 @@
 		- Informações sobre Aplicativo
 		- Informações de Como usar o Aplicativo
 
+
+\\ Possível erro de Autentificação // 
+	- Solução para o Erro
+		- Criar na tabela usuário uma coluna chamada Estado,
+		  com a coluna criada o código irá ser atualizado, onde
+		  dentro do programa, ja vai estar o código em si comentado;
+
+
 \\ Tarefas Concluídas juntamente com as Datas //
 
 -- Data 19/03/2024 hrs 15:30
@@ -134,4 +142,22 @@
 	- Adicionado as Configurações do Repositório		
 -- Data 22/03/2024 hrs 11:35
 	- Atualização do material de Apoio
+-- Data 25/03/2024 hrs 12:36
+	- Criação de Autentificação
+	- Pode ser que haja um erro
+	- Se ocorrer o 'Erro', fornecimento da solução no inicio deste material
+	- Criação das Permissões
+	- Commit da "Criação da autentificação e permissões"
+-- Data 26/03/2024 hrs 10:00
+	- Começando a trabalhar com o front-end da aplicação
+	- Criando a tela de Login
+	- Trabalhando na implementação do Login com o Banco de Dados
+	- Aplicanto agora o MVC
+	- Aplicando Controller em nossa Aplicação
+	- Aplicação do Controller da tela de Login
+	- Aplicando o método onde teremos uma mensagem de erro ao tentar entrar sem o usuário e senha 
+	- Erro ao Fazer a ligação com o Banco de Dados
+	- Corrigindo o problema
+	-Finalizando a parte da manhã de projetos
+-- Data 26/03/2024 hrs 13:33
 	
